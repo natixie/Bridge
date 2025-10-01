@@ -2,7 +2,10 @@
 
 namespace Bridge
 {
-    public class Car
+    /// <summary>
+    /// Car class inherits fra Vehicle class 
+    /// </summary>
+    public class Car : Vehicle
     {
         /// <summary>
         /// Properties for VehicleType Car som skal returnere en fixed pris og string "Car"
@@ -25,7 +28,7 @@ namespace Bridge
         /// Returnering af fixed pris på 230 kr
         /// </summary>
         /// <returns></returns>
-        public double Price()
+        public override double Price()
         {
             //Returnere en fixed pris
             return 230;
@@ -34,7 +37,7 @@ namespace Bridge
         /// Returnering af Vehicle Type "Car"
         /// </summary>
         /// <returns></returns>
-        public string VehicleType()
+        public override string VehicleType()
         {
             return "Car";
         }

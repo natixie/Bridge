@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Bridge
 {
-    public class MC
+    /// <summary>
+    /// MC Class inherits fra Vehicle class 
+    /// </summary>
+    public class MC : Vehicle
     {
         public string Licenseplate { get; set; }
         public DateTime Date { get; set; }
@@ -18,12 +21,12 @@ namespace Bridge
             Date = date;
         }
 
-        public double Price()
+        public override double Price()
         {
             return 120;
         }
 
-        public string VehicleType()
+        public override string VehicleType()
         {
             return "MC";
         }
