@@ -19,8 +19,6 @@ namespace StoreBaeltTicketLibrary
         {
             return "StoreBaelt MC";
         }
-        {
- 
-        }
+
     }
 }
