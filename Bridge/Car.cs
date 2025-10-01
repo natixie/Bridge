@@ -7,22 +7,7 @@ namespace Bridge
     /// </summary>
     public class Car : Vehicle
     {
-        /// <summary>
-        /// Properties for VehicleType Car som skal returnere en fixed pris og string "Car"
-        /// </summary>
-        public string Licenseplate {  get; set; }
-        public DateTime Date { get; set; }
-        /// <summary>
-        /// Lavede en constructor for at få parametrene licenseplate og DateTime date ind i test metoderne.
-        /// </summary>
-        /// <param name="licenseplate"></param>
-        /// <param name="date"></param>
-        //Laver en constructor for at teste det i CarTests da jeg lavede en fejl tidligere
-        public Car(string licenseplate, DateTime date)
-        {
-            Licenseplate = licenseplate;
-            Date = date;
-        }
+        
         
         /// <summary>
         /// Returnering af fixed pris på 230 kr

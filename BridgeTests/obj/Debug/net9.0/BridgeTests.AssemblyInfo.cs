@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BridgeTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2570ad9efd9037eb8e6944d59e5a1139e780d68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e8e63a52661bdc1b908a9ab9a4173806e619a62")]
 [assembly: System.Reflection.AssemblyProductAttribute("BridgeTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BridgeTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

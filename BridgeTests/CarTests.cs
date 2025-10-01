@@ -15,8 +15,10 @@ namespace BridgeTests
         [TestMethod]
         public void Car_Price_ReturnsFixedPrice230()
         {
-            //skal indføre parametrene fordi jeg har sat dem ind i min constructor også
-            var car = new Car("ABC1234", DateTime.Now);
+            var car = new Car();
+                car.LicensePlate ="ABCD123";
+                car.Date = DateTime.Now;
+
             var price = car.Price();
 
             //Tjekker at prisen bliver returneret som præcis 230
@@ -30,7 +32,9 @@ namespace BridgeTests
         public void Car_VehicleType_ReturnsCarString()
         {
             //skal indføre parametrene fordi jeg har sat dem ind i min constructor også
-            var car = new Car("ABC1234", DateTime.Now);
+            var car = new Car();
+            car.LicensePlate = "ABCD123";
+            car.Date = DateTime.Now;
             var vehicleType = car.VehicleType();
 
             //Tjekker her at VehicleType beliver returneret med string "Car" ligesom VehicleType() metoden i Car class

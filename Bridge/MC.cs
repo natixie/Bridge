@@ -11,16 +11,6 @@ namespace Bridge
     /// </summary>
     public class MC : Vehicle
     {
-        public string Licenseplate { get; set; }
-        public DateTime Date { get; set; }
-
-
-        public MC(string licenseplate, DateTime date)
-        {
-            Licenseplate = licenseplate;
-            Date = date;
-        }
-
         public override double Price()
         {
             return 120;
