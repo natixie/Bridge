@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bridge</name>
+    </assembly>
+    <members>
+        <member name="T:Bridge.Car">
+            <summary>
+            Car class inherits fra Vehicle class 
+            </summary>
+        </member>
+        <member name="M:Bridge.Car.Price">
+            <summary>
+            Returnering af fixed pris på 230 kr
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Bridge.Car.VehicleType">
+            <summary>
+            Returnering af Vehicle Type "Car"
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Bridge.MC">
+            <summary>
+            MC Class inherits fra Vehicle class 
+            </summary>
+        </member>
+        <member name="T:Bridge.Vehicle">
+            <summary>
+            Abstract class for at MC class og Car class kan inherit fra denne
+            </summary>
+        </member>
+    </members>
+</doc>
