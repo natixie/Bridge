@@ -35,6 +35,16 @@ namespace Bridge
 
         public abstract double Price();
 
+        public virtual double Price(bool brobizz)
+        {
+            double basePrice = Price();
+            if (brobizz)
+            {
+                return basePrice * 0.9;
+            }
+            return basePrice;
+        }
+
         public abstract string VehicleType();
 
 
