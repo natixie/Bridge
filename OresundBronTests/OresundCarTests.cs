@@ -29,5 +29,15 @@ namespace OresundBronTests
             Assert.AreEqual(178.0, price, 0.01);
         }
 
+
+        [TestMethod]
+        public void OresundCar_VehicleTypeReturnsStringOresundCar()
+        {
+            var car = new OresundCar();
+
+            var vehicleType = car.VehicleType();
+
+            Assert.AreEqual("Oresund Car", vehicleType);
+        }
     }
 }
